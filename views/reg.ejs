@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <ul class="navbar-nav">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/login">Login</a>
+                  </li>
+                  <li class="nav-item">
+                        <a class="nav-link" href="/reg">Registration</a>
+                      </li>
+                </ul>
+              </nav>
+   <div class="container">
+       <div class="row">
+           <div class="col col-12 col-sm-6">
+               <table class="table">
+                <tr><td>Name</td><td><input type="text" class="form-control"></td></tr>
+                <tr><td>Address</td><td><textarea cols="30" rows="5" class="form-control"></textarea></td></tr>
+                <tr><td>Gender</td><td><input type="radio" name="" id="">Male &nbsp; <input type="radio" value="">Female</td></tr>
+                <tr><td>Districts</td><td>     
+                <!-- <div class="btn-group">
+                <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Districts
+                </button>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                 <a class="dropdown-item" href="#">Separated link</a> 
+                </div> -->
+
+                <tr><td>District</td><td><select class="btn btn-info dropdown-toggle">
+                    <option>Thiruvananthapuram</option>
+                    <option>Kollam</option>
+                    <option>Pathanamthitta</option>
+                    <option>Alappuzha</option>
+                    <option>Kottayam</option>
+                    <option>Idukki</option>
+                    <option>Ernakulam</option>
+                    <option>Thrissur</option>
+                    <option>Palkkad</option>
+                    <option>Malappuram</option>
+                    <option>Kozhikkod</option>
+                    <option>Wayanad</option>
+                    <option>Kannur</option>
+                    <option>Kasargod</option>
+                </select></td></tr>
+                </div>
+                </td></tr>
+                <tr><td>DOB</td><td><input type="date" name="" id="" class="form-control"></td></tr>
+                <tr><td>Email</td><td><input type="email" name="" id="" class="form-control"></td></tr>
+                <tr><td>Username</td><td><input type="text" class="form-control"></td></tr>
+                <tr><td>Password</td><td><input type="password" class="form-control"></td></tr>
+                <tr><td>Confirm Password</td><td><input type="password" class="form-control"></td></tr>
+                <tr><td><button class="btn btn-info">Reset</button></td><td><button class="btn btn-info">Register</button></td></tr>
+               </table>
+           </div>
+       </div>
+   </div>
+</body>
+</html>
