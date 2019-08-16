@@ -8,6 +8,6 @@ app.get('/login',(req,res)=>{
 app.get('/reg',(req,res)=>{        
     res.render('reg',{title:"REGISTRATION"})
 })
-app.listen(3000,()=>{
+app.listen(process.env.PORT||3000,()=>{
     console.log("Server is running on http://localhost:3000")
 })  //port number-3000
