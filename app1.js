@@ -1,9 +1,7 @@
 const Express=require('express')
 var app=new Express()
 app.set('view engine','ejs')
-app.get('/',(req,res)=>{        //setting route
-    res.render('home',{title:"HOME"}) 
-})
+app.use(Express.static(__dirname+"/public"))
 app.get('/login',(req,res)=>{        
     res.render('login',{title:"LOGIN PAGE"})
 })
